@@ -1,0 +1,115 @@
+:root {
+  --color1: #352a2a; /* Dark Grey */
+  --color2: #ffffff; /* White */
+  --color3: #f5eded; /* Light Accent */
+  --color4: #cfc6c1; /* Dark accent */
+  --color5: #315713; /* Dark Green */
+  --color6: #7cad56; /* Light Green */
+}
+
+body {
+  font-family: "Atkinson Hyperlegible Mono", serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: row;
+  background-color: var(--color1);
+  overflow: hidden;
+  color: var(--color2);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  border: 6px solid var(--color5);
+  border-radius: 9px;
+  padding: 1rem 3rem;
+  background-color: var(--color6);
+}
+
+h1 {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 4rem;
+  margin-bottom: 0;
+  text-align: center;
+  border-bottom: 1px solid var(--color2);
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif, serif;
+  font-weight: 500;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.newspaper {
+  width: 200px;
+  margin: 20px auto;
+}
+.news-container {
+  position: relative;
+  border: 2px solid var(--color4);
+  border-radius: 5px;
+  padding: 20px;
+  width: 600px;
+  margin-top: 0;
+  height: 150px;
+  white-space: pre-line;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-align: left;
+  background: var(--color3);
+  padding: 20px;
+  padding-top: 0;
+  overflow: hidden;
+  color: var(--color1);
+}
+
+.close-btn {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  color: var(--color5);
+  background-color: #00000000;
+  border: none;
+  padding: 5px;
+}
+
+.close-bt:hover {
+  background-color: #00000000;
+  color: rgb(163, 7, 7);
+}
+
+#nameInput {
+  width: 250px;
+  height: 100px;
+  resize: both;
+  text-align: center;
+  padding: 10px;
+}
+
+body > div.container > button {
+  padding: 12px 15px;
+  border: none;
+  background-color: var(--color5);
+  color: var(--color2);
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 100%;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+body > div.container > button:hover {
+  background-color: var(--color1);
+}
+
+.hidden {
+  display: none;
+}
