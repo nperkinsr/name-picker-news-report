@@ -8,6 +8,6 @@ _Arthur has been fined £100 for failing to do the mandatory 'little nod' when l
 
 This project was created to practise random array selection and string manipulation, with an added focus on making the experience fun, weird, and unpredictable.
 
-[https://nperkinsr.github.io/name-picker/](https://nperkinsr.github.io/name-picker-news-report/)
+https://nperkinsr.github.io/name-picker-news-report/
 
 ![Screenshot 2025-02-19 at 16 47 43](https://github.com/user-attachments/assets/32505bb7-3de4-426d-a38f-e8c2f5d3a6b8)
