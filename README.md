@@ -10,4 +10,5 @@ This project was created to practise random array selection and string manipulat
 
 https://nperkinsr.github.io/name-picker-news-report/
 
-![Screenshot 2025-02-19 at 16 47 43](https://github.com/user-attachments/assets/32505bb7-3de4-426d-a38f-e8c2f5d3a6b8)
+<img width="1384" height="649" alt="Screenshot 2026-03-27 at 22 28 43" src="https://github.com/user-attachments/assets/9207d40b-e1b8-425f-9c8e-e6ef86c47a4a" />
+
