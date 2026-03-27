@@ -16,13 +16,13 @@
 
 <body>
   <div class="container">
+    <p class="eyebrow">Newsroom Desk</p>
     <h1>Breaking News</h1>
-    <h2>NAME PICKER</h2>
-    <textarea id="nameInput" placeholder="Enter names | One per line"></textarea>
-    <br>
-    <button onclick="startNews()">Pick a Name</button>
-    <br>
-    <img src="./assets/newspaper.png" alt="Newspaper" class="newspaper">
+    <h2>Name Picker</h2>
+    <p class="intro">Drop in a list of names and let the newsroom choose tonight's headline.</p>
+    <label class="input-label" for="nameInput">Candidate list</label>
+    <textarea id="nameInput" placeholder="Enter one name per line"></textarea>
+    <button class="pick-button" onclick="startNews()">Pick a Name</button>
   </div>
 
   <div class="news-container hidden" id="news"><button id="closeButton" class="close-btn">x</button></div>
